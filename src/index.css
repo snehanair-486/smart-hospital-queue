@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #f0f4f8;
+  color: #1a1a2e;
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+  transition: all 0.2s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #0077b6 !important;
+  box-shadow: 0 0 0 3px rgba(0, 119, 182, 0.15);
+}
